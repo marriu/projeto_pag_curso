@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO CURSO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="menu">
+        <img class="menu_logo" src="https://cdn-icons-png.flaticon.com/128/7838/7838457.png" alt="icon programacao">
+        <ul class="menu_lista">
+            <li>
+                <a class="menu_lista_item" href="#">Home</a>
+                <a class="menu_lista_item" href="#">Cursos</a>
+                <a class="menu_lista_item" href="#">Unidades</a>
+                <a class="menu_lista_item" href="#">Contato</a>
+            </li>
+        </ul>
+        <div class="search_box">
+            <input type="text" class="search_text" placeholder="Pesquisar...">
+            <a class="search_btn" href="">
+                <img class="loupe_blue" src="./loupe-blue.svg" alt="lupa azul" width="25px" height="25px">
+                <img class="loupe_white" src="./loupe-white.svg" alt="lupa branca" width="25px" height="25px">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="slides">
+                <input class="input_img" type="radio" name="slide" id="slide1" checked>
+                <input class="input_img" type="radio" name="slide" id="slide3">
+                <input class="input_img" type="radio" name="slide" id="slide2">
+                <input class="input_img" type="radio" name="slide" id="slide4">
+                
+    
+                <div class="slide s1">
+                    <img src="./1.jpg" alt="icon html">
+                </div>
+                <div class="slide">
+                    <img src="./2.jpg" alt="icon css">
+                </div>
+                <div class="slide">
+                    <img src="./3.jpg" alt="icon python">
+                </div>
+                <div class="slide">
+                    <img src="./4.jpg" alt="icon js">
+                </div>
+            </div>
+    
+            <div class="navigation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+            </div>
+        </div>
+    </main>
+    
+    <section id="cursos" class="cursos">
+            <h1 class="titulo_grande">Cursos</h1>
+            <div class="grade_cursos">
+                <div class="curso">
+                    <h2 class="curso_titulo">HTML / CSS / JS</h2>
+                    <p class="curso_texto"> Curso com duração de até 8 meses, para mais informação, clique em:</p>
+                    <a class="inscreva_curso" href="">Inscreva-se</a>
+                    <img class="img_cursos" src="https://blog.rocketseat.com.br/content/images/2024/02/htmlcssjs.png" alt="">
+                </div>
+                <div class="curso">
+                    <h2 class="curso_titulo">PYTHON</h2>
+                    <p class="curso_texto"> Curso com duração de até 5 meses, para mais informação, clique em:</p>
+                    <a class="inscreva_curso" href="">Inscreva-se</a>
+                    <img class="img_cursos" src="https://blog.rocketseat.com.br/content/images/size/w600/2024/01/python-1.png" alt="">
+                </div>
+            </div>
+    </section>
+
+    <section id="unidades" class="unidades">
+        <h1 class="unidades_titulo">Unidades</h1>
+        <p class="unidades_subtitulo">Não perca mais tempo e venha fazer parte desta grande comunidade de profissionais capacitados. Inscreva-se já e dê um passo importante rumo ao sucesso na sua carreira. A melhor escola de cursos presenciais do Brasil está esperando por você!</p>
+        <div class="row">
+            <div class="card roxo">
+                <h2 class="card_titulo">Unidade Fortaleza</h2>
+                <p>ZAP: (85) 99671-3935</p>
+                <p>Avenida Santos Dumont, Aldeota</p>
+                <img class="img_card" src="endereco.png" alt="">
+            </div>
+            <div class="card roxo">
+                <h2 class="card_titulo">Unidade Bahia</h2>
+                <p>ZAP: (71) 99204-0134</p>
+                <p>Alameda Salvador, 1057, Edf. Salvador Shopping Business, Torre Europa, Sala 310</p>
+                <img class="img_card" src="endereco.png" alt="">
+            </div>
+            <div class="card roxo">
+                <h2 class="card_titulo">Unidade Belo Horizonte</h2>
+                <p>ZAP: (31) 9501-9314</p>
+                <p>Avenida do Contorno, 6480, Loja 01, Savassi</p>
+                <img class="img_card" src="endereco.png" alt="">
+            </div>
+    </section>
+    <footer class="footer">
+        <p class="footer_copy">© - Todos os direitos reservados </p>
+        <p class="footer_curso">Infinity - Programação Fullstack</p>
+        <p class="footer_autor">Desenvolvido por Marina</p>
+      </footer>
+   
+</body>
+</html>
